@@ -1,0 +1,65 @@
+.address-new {
+    width: 100%;
+    height: 80px;
+    margin-top: 0px;
+    background-color: rgb(219 234 254);
+    text-align: left;
+}
+
+.address-new-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.address-new-container ol {
+    margin-left: 50px;
+}
+
+.address-menu-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 300px;
+    margin-top: 50px;
+}
+
+.address-menu-li {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.address-menu-li:hover {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(169, 169, 246);
+    border-radius: 5px;
+}
+
+.address-navbar-a {
+    color: rgb(31 41 55);
+}
+
+.address-menu-span {
+    padding-left: 10px;
+    color: rgb(239 68 68);
+}
+
+.proafil-menu-hr {
+    width: 100%;
+    padding-top: 15px;
+    border-top: 1px solid rgb(148, 143, 143);
+}
+
+@media screen and (max-width: 600px) {
+    .address-menu-container {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        margin-top: 10px;
+    }
+
+}

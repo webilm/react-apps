@@ -1,0 +1,24 @@
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.text-xl {
+    font-size: 1.25rem;
+    line-height: 0.5rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+.my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}

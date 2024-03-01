@@ -1,0 +1,52 @@
+.firebase-account {
+    padding: 10px;
+}
+
+/* .firebase-account-form {
+} */
+
+.firebase-account-input {
+    width: 83%;
+    padding: 10px 30px;
+    border: 1px solid rgb(209 213 219);
+    border-radius: 5px;
+
+}
+
+.firebase-account-img {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.firebase-account-img-img {
+    border: 1.5px solid blue;
+    border-radius: 50%;
+}
+
+.firebase-account-input-img {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgb(209 213 219);
+    background-color: #fff;
+}
+
+.firebase-account-button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(37 99 235);
+    border: 1px solid rgb(37 99 235);
+    color: white;
+    font-size: 25px;
+
+}
+.firebase-account-button:hover {
+    background-color: rgb(194, 196, 198);
+    border: 1px solid rgb(132, 132, 133);
+    color: #acabab;
+    font-size: 25px;
+
+}

@@ -1,0 +1,39 @@
+.address-firebase {
+    margin-left: 0px;
+}
+
+.address-firebase-form {
+    width: 425px;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+}
+
+.address-firebase-input {
+    width: 95%;
+    padding: 10px;
+    background-color: rgb(243 244 246);
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+
+}
+
+.address-firebase-p {
+    margin-right: 180px;
+}
+
+.address-firebase-input-1 {
+    width: 40%;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: rgb(243 244 246);
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+
+}
+
+.address-firebase-button {
+    margin-left: 85px;
+    margin-top: 20px;
+    padding: 10px 100px;
+    text-align: center;
+}

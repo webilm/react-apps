@@ -1,0 +1,75 @@
+.update-admin {
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: left;
+    gap: 250px;
+}
+
+.update-admin-li {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.update-admin-li:hover {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(199, 199, 203);
+    border-radius: 5px;
+}
+
+.update-admin-a {
+    color: rgb(31 41 55);
+}
+
+.update-admin-span {
+    padding-left: 10px;
+    color: rgb(239 68 68);
+}
+
+.update-admin-hr {
+    width: 100%;
+    padding-top: 15px;
+    border-top: 1px solid rgb(148, 143, 143);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .update-admin {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 10px;
+        padding: 20px;
+        gap: 100px;
+        
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .update-admin {
+        display: block;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 10px;
+        padding: 20px;
+        gap: 50px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .update-admin {
+        display: block;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 10px;
+        padding: 20px;
+        
+    }
+
+}

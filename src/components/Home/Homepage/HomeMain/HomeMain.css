@@ -1,0 +1,235 @@
+.main-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-container button:hover {
+    background-color: rgb(56, 73, 198);
+}
+
+.main-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-lift {
+    display: block;
+    justify-content: start;
+    align-content: center;
+
+    /* text-align: center;    */
+}
+
+.main-button-count {
+    width: 315px;
+    height: 150px;
+    padding-left: 35px;
+    background-color: #fdfdfd;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    text-align: left;
+
+    
+}
+
+.quantity {
+    width: 80px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 7px;
+    border: 1px solid rgb(196, 196, 196);
+}
+
+.quantity:hover {
+    border: 0.3px solid rgb(96, 96, 96);
+}
+
+.quantity-button {
+    width: 95px;
+    height: 44px;
+    background-color: rgb(49, 76, 249);
+    border: 1px solid rgb(17, 92, 241);
+    border-radius: 5px;
+    font-size: 1.15rem;
+    color: white;
+}
+
+.main-filter {
+    width: 315px;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 35px;
+    background-color: #fdfdfd;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.main-filter hr {
+    width: 280px;
+    margin-right: 85px;
+}
+
+li {
+    list-style-type: none;
+    margin-left: -40px;
+
+}
+
+.main-right {
+    max-width: 910px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 5px;
+
+}
+
+.main-free {
+    /* width: 468px; */
+    text-align-last: left;
+    padding-left: 60px;
+}
+
+.main-free span {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    color: #EAB308;
+}
+
+.main-free b {
+    color: rgb(186, 189, 193);
+}
+
+.main-item-text {
+    width: 375px;
+    text-align: left;
+}
+
+.main-cart {
+    width: 180px;
+    border-left: 1px solid rgb(196, 196, 196);
+    display: block;
+    justify-content: start;
+    align-items: flex-start;
+    padding-top: 22px;
+    padding-left: 22px;
+    text-align: left;
+}
+
+.main-cart-button {
+    width: 125px;
+    height: 44px;
+    background-color: rgb(49, 76, 249);
+    border: 1px solid rgb(17, 92, 241);
+    border-radius: 5px;
+    font-size: 1.15rem;
+    color: white;
+}
+
+.main-cart span {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1rem;
+}
+
+.main-cart p {
+    color: rgb(34 197 94);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .main-container {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .main-right {
+        width: 100%;
+        max-width: 910px;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid rgb(196, 196, 196);
+    
+    }
+
+    .main-cart {
+        width: 180px;
+        height: 198px;
+        display: block;
+        justify-content: start;
+        align-items: flex-start;
+        padding-top: 22px;
+        padding-left: 60px;
+        text-align: left;
+    }
+    
+
+}
+@media screen and (max-width: 768px) {
+    .main-container {
+        margin-top: 10px;
+        display: block;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .main-right {
+        width: 100%;
+        display: block;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid rgb(196, 196, 196);
+    
+    }
+
+    .main-cart {
+        width: 100%;
+        height: 100%;
+        display: block;
+        justify-content: start;
+        align-items: flex-start;
+        padding-top: 22px;
+        padding-left: 60px;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 500px) {
+    .main-container {
+        margin-top: 10px;
+        display: block;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .main-right {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .main-cart {
+        width: 100%;
+        height: 100%;
+        display: block;
+        justify-content: start;
+        align-items: flex-start;
+        padding-top: 0px;
+        padding-left: 60px;
+    }
+    
+
+}

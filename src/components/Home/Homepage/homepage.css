@@ -1,0 +1,129 @@
+.home-container {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-input-item {
+    width: 380px;
+    height: 40.1px;
+    margin-left: 10px;
+    background-color: rgb(245, 248, 254);
+    border: 1.5px solid rgb(195, 194, 194);
+    border-radius: 5px;
+    font-size: 1.25rem;
+}
+
+.header-input-item:focus {
+    background-color: rgb(229, 231, 232);
+}
+
+
+.header-input-item:hover {
+    border: 0.5px solid black;
+
+}
+
+.header-item-button {
+    width: 100px;
+    height: 43px;
+    margin-left: 10px;
+    background-color: rgb(49, 76, 249);
+    border: 1px solid rgb(17, 92, 241);
+    border-radius: 5px;
+    font-size: 1.15rem;
+    color: white;
+}
+
+.header-item-button:hover {
+    background-color: rgb(56, 73, 198);
+}
+
+.header-item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
+}
+
+
+.header-item-span {
+    width: 80px;
+    height: 34px;
+    background-color: rgb(249, 249, 254);
+    padding-top: 7px;
+    border: 1px solid rgb(199, 198, 198);
+    border-radius: 5px;
+    font-size: 1.15rem;
+    color: rgb(50, 49, 49);
+}
+
+.header-item-span:hover {
+    background-color: rgb(234, 231, 231);
+}
+
+.header-text {
+    font-size: 1rem;
+    line-height: 0.4rem;
+    text-align: left;
+}
+
+.header-text-name {
+    font-size: 1.3rem;
+}
+
+hr {
+    border: 0.1px solid rgb(234, 232, 231);
+}
+
+@media screen and (max-width: 1024px) {
+    .home-container {
+        max-width: 85%;
+    }
+
+    .header-item {
+        display: block;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .header-item-button {
+        width: 100%;
+        height: 43px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 5px;
+        font-size: 1.15rem;
+        color: white;
+    }
+
+    .header-item-link {
+        margin-top: 50px;
+        display: block;
+        justify-content: flex-start;
+        align-items: flex-start;
+        column-gap: 0px;
+    }
+
+    .header-item-span {
+        width: 100%;
+        height: 34px;
+        padding-top: 7px;
+        padding-bottom: 10px;
+        font-size: 1.15rem;
+        text-align: center;
+    }
+
+    .home-page-img {
+        padding-top: 20px;
+    }
+}

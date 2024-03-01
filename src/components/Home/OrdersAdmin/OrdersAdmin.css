@@ -1,0 +1,62 @@
+.orders-admin {
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: left;
+    gap: 150px;
+}
+
+.orders-admin-li {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.orders-admin-li:hover {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(169, 169, 246);
+    border-radius: 5px;
+}
+
+.orders-admin-a {
+    color: rgb(31 41 55);
+}
+
+.orders-admin-span {
+    padding-left: 10px;
+    color: rgb(239 68 68);
+}
+
+.orders-admin-hr {
+    width: 100%;
+    padding-top: 15px;
+    border-top: 1px solid rgb(148, 143, 143);
+}
+
+
+@media screen and (max-width: 768px) {
+    .orders-admin {
+        display: block;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 10px;
+        padding: 20px;
+        gap: 50px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .orders-admin {
+        display: block;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 10px;
+        padding: 20px;
+        
+    }
+
+}

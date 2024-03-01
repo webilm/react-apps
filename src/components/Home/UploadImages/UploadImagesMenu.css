@@ -1,0 +1,73 @@
+.upload-images-menu {
+    width: 480px;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid rgb(171, 168, 168);
+    border-radius: 5px;
+}
+
+.upload-images-menu-h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+
+}
+
+.upload-images-menu-input {
+    width: 95%;
+    margin-top: 30px;
+    padding: 10px;
+    border: 1px solid rgb(199, 197, 197);
+    border-radius: 5px;
+}
+
+.upload-images-menu-p {
+    width: 188px;
+    padding: 0px 2px 2px 2px;
+    font-size: 0.8rem;
+    line-height: 0.6rem;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 25px;
+
+}
+
+.upload-images-menu-img {
+    margin-right: 13px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(147, 147, 147);
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.upload-images-menu-button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(37 99 235);
+    border: 1px solid transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+.upload-images-menu-button:hover {
+    background-color: rgb(6, 51, 147);
+    border: 1px solid white;
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    .upload-images-menu {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .upload-images-menu {
+        width: 300px;
+    }
+
+}

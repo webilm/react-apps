@@ -1,0 +1,72 @@
+.products-admin-menu {
+    width: 125%;
+    padding: 10px;
+    background-color: #fff;
+    border: 0.5px solid white;
+    border-radius: 10px;
+}
+
+.products-admin-menu-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 130px;
+}
+
+.products-admin-menu-p {
+    font-weight: bold;
+    color: rgb(55 65 81);
+    font-size: 18px;
+    line-height: 1.25rem;
+    border-collapse: collapse;
+}
+
+.products-admin-menu-p2 {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.products-admin-menu-a {
+    padding: 0px 7.5px;
+    border: 1px solid rgb(216, 216, 216);
+    margin-right: 5px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .products-admin-menu {
+        width: 100%;
+    }
+
+    .products-admin-menu-text {
+        gap: 80px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .products-admin-menu {
+        margin-left: 25px;
+        width: 90%;
+    }
+    .products-admin-menu-text {
+        gap: 50px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .products-admin-menu {
+        margin-left: 0px;
+        width: 90%;
+    }
+    .products-admin-menu-text {
+        margin-left: 10px;
+        display: block;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+}

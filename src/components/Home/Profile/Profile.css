@@ -1,0 +1,129 @@
+.proafil-menu {
+    margin-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: left;
+    gap: 100px;
+}
+
+.proafil-menu-li {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.proafil-menu-li:hover {
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(169, 169, 246);
+    border-radius: 5px;
+}
+
+.profile-navbar-a {
+    color: rgb(31 41 55);
+}
+
+.proafil-menu-span {
+    padding-left: 10px;
+    color: rgb(239 68 68);
+}
+
+.proafil-menu-hr {
+    width: 100%;
+    padding-top: 15px;
+    border-top: 1px solid rgb(148, 143, 143);
+}
+
+.proafil-menu-box {
+    width: 100%;
+    max-width: 928px;
+}
+
+.proafil-menu-account {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.proafil-menu-name {
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+
+.proafil-menu-email {
+    margin-top: -30px;
+
+}
+
+.proafil-menu-hr-1 {
+    width: 100%;
+    border-top: 1px solid rgb(148, 143, 143);
+
+}
+
+.proafil-menu-cart {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 928px;
+}
+
+.proafil-menu-email-1 {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.proafil-menu-box-span {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    background-color: rgb(255 255 255);
+    border-top: 1px solid rgb(148, 143, 143);
+    border-radius: 50%;
+    color: rgb(255 255 255);
+
+}
+
+.proafil-menu-button {
+    width: 160px;
+    height: 42px;
+    margin-top: 10px;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 1px solid rgb(195, 196, 198);
+    border-radius: 5px;
+    color: rgb(37 99 235);
+    text-align: center;
+
+}
+
+@media screen and (max-width: 525px) {
+    .proafil-menu {
+        margin-top: 10px;
+        display: block;
+        justify-content: center;
+        align-items: start;
+        
+    }
+
+    .proafil-menu-li {
+        margin-bottom: 10px;
+    }
+
+    .proafil-menu-account {
+        margin-left: 30px;
+    }
+
+    .proafil-menu-cart {
+        margin-left: 30px;
+    }
+
+    .proafil-menu-button {
+        margin-left: 30px;
+    
+    }
+    
+}
